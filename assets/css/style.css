@@ -120,6 +120,15 @@ h6 {
     bottom: 0;
     background-color: #009bdb;
 }
+#cell .main-heading2:after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #00cc99;
+}
 .lite {
     font-weight: 300;
 }
@@ -511,6 +520,12 @@ header {
     /*background-color: #e2e2e2;*/
     background-color: #0091cd;
 }
+#cell .breadcrumb {
+    margin-bottom: 0;
+    padding: 25px 0 20px;
+    /*background-color: #e2e2e2;*/
+    background-color: #00cc99;
+}
 .breadcrumb ul {
     margin-bottom: 0;
 }
@@ -695,6 +710,10 @@ header {
     margin-top: 80px;
     background: url(../images/about-page-image.jpg) no-repeat right bottom;
 }
+#cell .welcome-area.about {
+    margin-top: 80px;
+    background: url(../images/cell_life.jpg) no-repeat right bottom;
+}
 .welcome-area h2,
 .welcome-area h3 {
     margin-top: 0;
@@ -711,6 +730,10 @@ header {
 }
 .welcome-area.about .main-heading1 {
     color: #009bdb;
+    font-weight: 500;
+}
+#cell .welcome-area.about .main-heading1 {
+    color: #00cc99;
     font-weight: 500;
 }
 .welcome-area.about .main-heading2 {
@@ -756,6 +779,12 @@ header {
     float: left;
     font-size: 30px;
     color: #009bdb;
+}
+#cell .about-featured ul.list > li .fa {
+    margin-top: 5px;
+    float: left;
+    font-size: 30px;
+    color: #00cc99;
 }
 .about-featured ul.list > li h4 {
     margin-top: 0;
@@ -1354,9 +1383,25 @@ header {
     border-top-color: #009bdb;
     border-width: 10px;
 }
+#cell .tabs-wrap-2 .nav-tabs > li.active > a:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 44%;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-color: rgba(0, 155, 219, 0);
+    border-top-color: #00cc99;
+    border-width: 10px;
+}
 .tabs-wrap-2 .nav-tabs > li > a:hover,
 .tabs-wrap-2 .nav-tabs > li > a:focus {
     color: #009bdb;
+    background: none;
+}
+#cell .tabs-wrap-2 .nav-tabs > li > a:focus {
+    color: #00cc99;
     background: none;
 }
 .tabs-wrap-2 .nav-tabs > li.active > a,
@@ -1364,6 +1409,12 @@ header {
 .tabs-wrap-2 .nav-tabs > li.active > a:hover {
     color: #fff;
     background-color: #009bdb;
+}
+#cell .tabs-wrap-2 .nav-tabs > li.active > a,
+.tabs-wrap-2 .nav-tabs > li.active > a:focus,
+.tabs-wrap-2 .nav-tabs > li.active > a:hover {
+    color: #fff;
+    background-color: #00cc99;
 }
 .tabs-wrap-2 .tab-content {
     padding-top: 30px;
@@ -2371,6 +2422,9 @@ ul#doctors-grid.grid > li > .bio-box {
 }
 .list-style-3 li:before {
     color: #0091cd;
+}
+#cell .list-style-3 li:before {
+    color: #00cc99;
 }
 .list-style-3 li:hover:before,
 .list-style-3 li a:hover,

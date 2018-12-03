@@ -712,7 +712,7 @@ header {
 }
 #cell .welcome-area.about {
     margin-top: 80px;
-    background: url(../images/cell_life.jpg) no-repeat right bottom;
+    /*background: url(../images/cell_life.jpg) no-repeat right bottom;*/
 }
 .welcome-area h2,
 .welcome-area h3 {

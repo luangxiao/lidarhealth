@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="">
-	<title>Home</title>
+	<title >Lidar Life Science</title>
 	<!-- Bootstrap CSS -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesome CSS -->
@@ -31,6 +31,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]><script src="assets/js/html5shiv.min.js"></script><script src="assets/js/respond.min.js"></script><![endif]-->
+	<link rel="icon" href="title.ico" type="image/x-icon"/>
+	
 </head>
 <body>
 
@@ -84,22 +86,34 @@
 						</button>
 						<!-- End Collapse Button -->
 						<!-- Start Website Logo -->
-						<a href="index.html" class="navbar-brand">
-							<img src="assets/images/logo.jpg" class="logo" alt="Logo">
+						<a href="index.html" class="navbar-left">
+							<img src="assets/images/logo.png" style="height:100px;" class="logo" alt="Logo">
 						</a>
+						
 						<!-- End Website Logo -->
 					</div>
 					<!-- Start Menu Area -->
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="index.html">首页</a></li>
-							<li><a href="about.html">关于我们</a></li>
-							<li><a href="actl.html">ACTL技术</a></li>
-							<li><a href="danbai.html">蛋白芯片</a></li>
-							<li><a href="cell.html">干细胞技术</a></li>
+							<li class="active"><a href="index.html">首页</a></li>
+							<li>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">蛋白芯片<span class="caret"></span></a>
+								<ul class="dropdown-menu" style="background: white;">
+									<li><a href="protein.html" style="color: black">健康管理</a></li>
+									<li><a href="biology.html" style="color: black">生物医学应用</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">细胞治疗<span class="caret"></span></a>
+								<ul class="dropdown-menu" style="background: white;">
+									<li><a href="cell.html" style="color: black">干细胞技术</a></li>
+									<!--<li><a href="actl.html" style="color: black">ACTL技术</a></li>-->
+								</ul>
+							</li>
 							<li><a href="more_products.html">更多产品</a></li>
 							<!-- <li class="active"><a href="service-single.html">Single Service</a></li> -->
 							<li><a href="contact.html">联系我们</a></li>
+							<li><a href="about.html">关于我们</a></li>
 						</ul>
 					</div>
 					<!-- Start Menu Area -->
@@ -118,27 +132,31 @@
 					<h2>利戴尔医疗器械</h2>
 					<!-- <h2>Some Caption <span>Here</span></h2> -->
 					<p>独有的自主创新技术，便利且精准。</p>
-					<!-- <a href="services.html" class="btn btn-secondary">阅读更多</a> -->
+					<a href="http://www.lidargroup.com"  target="_blank" class="btn btn-secondary">阅读更多</a>
 				</div>
 			</div>
 			<!-- End Slide #1 -->
 			<!-- Start Slide #2 -->
 			<div data-src="assets/images/slider/slider-image-2.jpg">
 				<div class="camera_caption fadeIn hidden-sm hidden-xs">
-					<h2>ACTL治疗技术</h2>
+					<h2>干细胞技术</h2>
 					<!-- <h2>Some Caption <span>Here</span></h2> -->
-					<p>给癌症带来希望</p>
-					<a href="actl.html" class="btn btn-secondary">阅读更多</a>
+					<p>世界高新技术的新亮点</p>
+				       <a href="cell.html" class="btn btn-secondary">阅读更多</a>
 				</div>
 			</div>
 			<!-- End Slide #2 -->
 			<!-- Start Slide #3 -->
 			<div data-src="assets/images/slider/slider-image-3.jpg">
 				<div class="camera_caption fadeIn hidden-sm hidden-xs">
-					<h2>蛋白芯片档案</h2>
+				<h2>蛋白芯片</h2>
 					<!-- <h2>Some Caption <span>Here</span></h2> -->
 					<p>健康人生管家</p>
-					<!-- <a href="services.html" class="btn btn-secondary">Read More</a> -->
+					<a href="danbai.html" class="btn btn-secondary">阅读更多</a>
+	<!--<h2>蛋白芯片档案</h2>
+				  <h2>Some Caption <span>Here</span></h2>
+					<p>健康人生管家</p>
+				        <a href="danbai.html" class="btn btn-secondary">阅读更~Za>-->
 				</div>
 			</div>
 			<!-- End Slide #3 -->
@@ -149,43 +167,49 @@
 	<div class="container main-container">
 		<!-- Start Notification Area -->
 		<div class="notification-boxes row">
-			<!-- Start Box #1 -->
-			<div class="col-md-3 col-sm-6 col-xs-6">
-				<div class="box wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-					<i class="fa fa-user-md"></i>
-					<h4>干细胞技术</h4>
-					<p>Lorem ipsum dolorit amet consetur adipiscing Morbi sollicitudin just non odio molestie ...</p>
-					<a href="doctors.html" class="btn btn-transparent">阅读更多</a>
-				</div>
-			</div>
-			<!-- End Box #1 -->
 			<!-- Start Box #2 -->
-			<div class="col-md-3 col-sm-6 col-xs-6">
+			<div class="col-md-4 col-sm-6 col-xs-6">
 				<div class="box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
 					<i class="fa fa-stethoscope"></i>
 					<h4>蛋白芯片</h4>
-					<p>Lorem ipsum dolorit amet consetur adipiscing Morbi sollicitudin just non odio molestie ...</p>
-					<a href="services.html" class="btn btn-transparent">阅读更多</a>
+					<p>利用蛋白质检测让疾病早现形..</p>
+					<br>
+					<a href="protein.html" class="btn btn-transparent">阅读更多</a>
 				</div>
 			</div>
 			<!-- End Box #2 -->
 			<!-- Start Box #3 -->
-			<div class="col-md-3 col-sm-6 col-xs-6">
+			<div class="col-md-4 col-sm-6 col-xs-6">
 				<div class="box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.5s">
 					<i class="fa fa-flask"></i>
-					<h4>ACTL技术</h4>
-					<p>ACTL靶向性细胞免疫治疗技术，给癌症带来希望</p>
-					<a href="departments.html" class="btn btn-transparent">阅读更多</a>
+					<h4>干细胞技术</h4>
+					<p>干细胞技术是人类生命的源泉...</p>
+					<br>
+					<a href="cell.html" class="btn btn-transparent">阅读更多</a>
 				</div>
 			</div>
 			<!-- End Box #3 -->
+			<!-- Start Box #1 -->
+		<!--	
+		<div class="col-md-3 col-sm-6 col-xs-6">
+				<div class="box wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+					<i class="fa fa-user-md"></i>
+					<h4>ACTL技术</h4>
+					<p>ACTL靶向性细胞免疫治疗技术，给癌症带来希望...</p>
+				<!--	<a href="actl.html" class="btn btn-transparent">阅读更多</a>-->
+		<!--		</div>
+		</div>-->
+		
+		
+		
+			<!-- End Box #1 -->
 			<!-- Start Box #4 -->
-			<div class="col-md-3 col-sm-6 col-xs-6">
+			<div class="col-md-4 col-sm-6 col-xs-6">
 				<div class="box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
 					<i class="fa fa-comments-o"></i>
 					<h4>更多产品</h4>
-					<p>Lorem ipsum dolorit amet consetur adipiscing Morbi sollicitudin just non odio molestie ...</p>
-					<a href="news.html" class="btn btn-transparent">阅读更多</a>
+					<p>基因检测技术、免疫细胞技术为您的健康保驾护航...</p>
+					<a href="more_products.html" class="btn btn-transparent">阅读更多</a>
 				</div>
 			</div>
 			<!-- End Box #4 -->
@@ -195,10 +219,10 @@
 		<section class="welcome-area">
 			<div class="row">
 				<div class="col-md-6 col-sm-12 col-xs-12">
-					<h2 class="main-heading1 lite">We Offer Fast &amp; Reliable</h2>
-					<h2 class="main-heading2">Medical &amp; Healthcare</h2>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using content.</p>
-					<p>Making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.</p>
+					<h2 class="main-heading1 lite" style="font-size: 32px">我们为您提供</h2>
+					<h2 class="main-heading2" style="font-size: 30px">最专业全面的健康管理服务</h2>
+					<p style="font-size: 18px">利戴尔生物科技有限公司依托国家战略层面优势资源，通过生命科学、健康管理，提供完整干细胞、免疫细胞、基因与蛋白芯片检测技术体系，将国际最前沿科技转化应用、开发、创新。公司自成立以来，坚持技术立身，以人为本，勇于探索。正在与美国知名实验室筹建生物分子实验室。</p>
+					<p style="font-size: 18px">我们具体开展的项目有基因检测、蛋白检测、免疫细胞技术，脐带血干细胞技术，脂肪干细胞技术，专能干细胞技术，以最先进的科技和最人性服务为您的健康保驾护航。</p>
 				</div>
 				<div class="col-md-6 hidden-sm hidden-xs">
 					<img src="assets/images/home-welcome-image.jpg" alt="Welcome Image" class="img-responsive img-style1">
@@ -211,62 +235,34 @@
 	<!-- Start Doctors Area -->
 	<section class="featured-doctors">
 		<div class="container">
-			<h2><span class="lite">Meet Our</span> Doctors</h2>
-			<p>Making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident.  Various versions have evolved over the years, sometimes by accident.</p>
+			<h2><span class="lite">专家团队</span></h2>
+			<p style="font-size: 22px">利黛迩的专家团队拥有大量的前沿技术开创者和行业翘楚，他们不仅指引行业发展的方向，而且为您的健康保驾护航</p>
 			<div class="row">
-				<!-- Start Doctor #1 -->
-				<div class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-					<div class="bio-box">
-						<div class="profile-img">
-							<img src="assets/images/home-doctor-1.jpg" alt="Doctor" class="img-responsive img-center-sm img-center-xs">
-							<div class="overlay">
-								<ul class="list-unstyled list-inline sm-links">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-									<li><a href="#"><i class="fa fa-phone"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="inner">
-							<h5>Dr. Tom Smith</h5>
-							<p class="designation">Surgeon</p>
-							<p class="divider"><i class="fa fa-plus-square"></i></p>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book ...</p>
-						</div>
-						<a href="doctor-profile.html" class="btn btn-secondary text-uppercase">Book An Appointment</a>
-					</div>
-				</div>
-				<!-- End Doctor #1 -->
 				<!-- Start Doctor #2 -->
-				<div class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+				<div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
 					<div class="bio-box">
 						<div class="profile-img">
-							<img src="assets/images/home-doctor-2.jpg" alt="Doctor" class="img-responsive img-center-sm img-center-xs">
+							<img src="assets/images/huang.jpg" alt="Doctor" style="margin:auto;" class="img-responsive img-center-sm img-center-xs">
 							<div class="overlay">
-								<ul class="list-unstyled list-inline sm-links">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-									<li><a href="#"><i class="fa fa-phone"></i></a></li>
-								</ul>
+								</ul> -->
 							</div>
 						</div>
 						<div class="inner">
-							<h5>Dr. Julia Doe</h5>
-							<p class="designation">Cardiologists</p>
+							<h5>黄若磐</h5>
+							<p class="designation">美国埃默里大学首席研究员</p>
 							<p class="divider"><i class="fa fa-plus-square"></i></p>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book ...</p>
+							<p>美国埃默里大学首席研究员，中山大学客座教授，中组部千人计划专家；美国RayBiotech公司创始人、总裁及首席科学家；人类细胞因子蛋白质芯片发明人；分子诊断及蛋白质组学专业委员会主任委员 ...</p>
 						</div>
-						<a href="doctor-profile.html" class="btn btn-secondary text-uppercase">Book An Appointment</a>
 					</div>
 				</div>
 				<!-- End Doctor #2 -->
-				<!-- Start Doctor #3 -->
-				<div class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+				<!-- Start Doctor #1 -->
+				<!-- <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 					<div class="bio-box">
 						<div class="profile-img">
-							<img src="assets/images/home-doctor-3.jpg" alt="Doctor" class="img-responsive img-center-sm img-center-xs">
+							<img src="assets/images/zheng.jpg" alt="Doctor" class="img-responsive img-center-sm img-center-xs">
 							<div class="overlay">
-								<ul class="list-unstyled list-inline sm-links">
+								 <ul class="list-unstyled list-inline sm-links">
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
 									<li><a href="#"><i class="fa fa-phone"></i></a></li>
@@ -274,145 +270,118 @@
 							</div>
 						</div>
 						<div class="inner">
-							<h5>Dr. John Brown</h5>
-							<p class="designation">Dermatologists</p>
+							<h5>郑文岭</h5>
+							<p class="designation">美国国立癌症研究所研究员</p>
 							<p class="divider"><i class="fa fa-plus-square"></i></p>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book ...</p>
+							<p>南方医科大学基因工程研究所教授、博士生导师；华南理工大学兼职教授；广州基因产业园首席科学家；国家自然科学基金、生命学部、基金评审委员会专家组委员 ...</p>
+							<br>
 						</div>
-						<a href="doctor-profile.html" class="btn btn-secondary text-uppercase">Book An Appointment</a>
+						 <a href="doctor-profile.html" class="btn btn-secondary text-uppercase">Book An Appointment</a>
+					</div>
+				</div> -->
+					<!-- Start Doctor #4 -->
+				<div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
+					<div class="bio-box">
+						<div class="profile-img">
+							<img src="assets/images/luo.jpg" style="margin:auto;" alt="Doctor" class="img-responsive img-center-sm img-center-xs">
+							<div class="overlay">
+							</div>
+						</div>
+						<div class="inner">
+							<h5>罗树红</h5>
+							<p class="designation">美国伊利诺依州大学病理生物学系教授</p>
+							<p class="divider"><i class="fa fa-plus-square"></i></p>
+							<p>美国伊利诺依州大学病理生物学系教授、微生物学系高级研究员；博士生导师；</p>
+						</div>
+					</div>
+				</div>
+<!-- End Doctor #1 -->
+				<!-- Start Doctor #3 -->
+				<div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+					<div class="bio-box">
+						<div class="profile-img">
+							<img style="margin:auto;" src="assets/images/liu.jpg" alt="Doctor" class="img-responsive img-center-sm img-center-xs">
+							<div class="overlay">
+							</div>
+						</div>
+						<div class="inner">
+							<h5>刘勇</h5>
+							<p class="designation">美国斯坦福大学医学院肿瘤中心教授</p>
+							<p class="divider"><i class="fa fa-plus-square"></i></p>
+							<p>美国阿肯色大学医学院、美国斯坦福大学医学院肿瘤中心教授；ACTL免疫治疗技术和HCTL免疫技术发明人、专利发明人、首席科学家；中国国家外国专家局外国高端专家 ...</p>
+							<br>
+						</div>
 					</div>
 				</div>
 				<!-- End Doctor #3 -->
-				<!-- Start Doctor #4 -->
-				<div class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-					<div class="bio-box">
-						<div class="profile-img">
-							<img src="assets/images/home-doctor-4.jpg" alt="Doctor" class="img-responsive img-center-sm img-center-xs">
-							<div class="overlay">
-								<ul class="list-unstyled list-inline sm-links">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-									<li><a href="#"><i class="fa fa-phone"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="inner">
-							<h5>Dr. Annabel Bert</h5>
-							<p class="designation">Hematologists</p>
-							<p class="divider"><i class="fa fa-plus-square"></i></p>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book ...</p>
-						</div>
-						<a href="doctor-profile.html" class="btn btn-secondary text-uppercase">Book An Appointment</a>
-					</div>
-				</div>
-				<!-- Start Doctor #4 -->
+							<!-- Start Doctor #4 -->
 			</div>
 		</div>
 	</section>
 	<!-- End Doctors Area -->
 	<!-- Start Main Container Area -->
 	<div class="container main-container">
-		<!-- Start Services Area -->
-		<section class="medical-services">
-			<h2 class="main-heading1 lite">Our Best</h2>
-			<h2 class="main-heading2">Medical Services</h2>
-			<!-- Start Services List Area -->
-			<ul class="list-unstyled row text-center">
-				<li class="col-md-2 col-sm-4 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-					<div class="icon">
-						<img src="assets/images/icons/dental-care.png" alt="Dental Care">
-					</div>
-					<h5>Dental Care</h5>
-					<p>Lorem Ipsum is simply dummy text ...</p>
-					<a href="service-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i> Read More</a>
-				</li>
-				<li class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-					<div class="icon">
-						<img src="assets/images/icons/band-aid.png" alt="First Aid">
-					</div>
-					<h5>First Aid</h5>
-					<p>Lorem Ipsum is simply dummy text ...</p>
-					<a href="service-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i> Read More</a>
-				</li>
-				<li class="col-md-2 col-sm-4 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-					<div class="icon">
-						<img src="assets/images/icons/pharmacy.png" alt="Pharmacy">
-					</div>
-					<h5>Pharmacy</h5>
-					<p>Lorem Ipsum is simply dummy text ...</p>
-					<a href="service-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i> Read More</a>
-				</li>
-				<li class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
-					<div class="icon">
-						<img src="assets/images/icons/doctors.png" alt="Doctors">
-					</div>
-					<h5>Doctors</h5>
-					<p>Lorem Ipsum is simply dummy text ...</p>
-					<a href="service-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i> Read More</a>
-				</li>
-				<li class="col-md-2 col-sm-4 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
-					<div class="icon">
-						<img src="assets/images/icons/pulmonary.png" alt="Pulmonary">
-					</div>
-					<h5>Pulmonary</h5>
-					<p>Lorem Ipsum is simply dummy text ...</p>
-					<a href="service-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i> Read More</a>
-				</li>
-				<li class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.5s">
-					<div class="icon">
-						<img src="assets/images/icons/ambulance.png" alt="Ambulance">
-					</div>
-					<h5>Ambulance</h5>
-					<p>Lorem Ipsum is simply dummy text ...</p>
-					<a href="service-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i> Read More</a>
-				</li>
-			</ul>
-			<!-- End Services List Area -->
-		</section>
-		<!-- End Services Area -->
 		<div class="row">
 			<!-- Start Latest News Area -->
-			<section class="col-md-8 col-sm-12 col-xs-12">
+			<section class="col-md-12 col-sm-12 col-xs-12">
 				<div class="main-block1">
-					<h2 class="main-heading1 lite">Latest</h2>
-					<h2 class="main-heading2">Tips & News</h2>
+					<!-- <h2 class="main-heading1 lite">Latest</h2> -->
+					<h2 class="main-heading2">最新动态</h2>
 					<!-- Start News Carousel -->
 					<div id="news-carousel" class="news-carousel carousel slide" data-ride="carousel">
 						<div class="carousel-inner">
 							<!-- Start News Slide #1 -->
 							<div class="item active">
 								<div class="row">
-									<!-- Start News #1 -->
-									<div class="col-md-6 col-sm-6 col-xs-6">
+									<!-- Start News #3 -->
+									<div class="col-md-4 col-sm-6 col-xs-6 col-md-offset-1">
 										<div class="news-post-box">
-											<img src="assets/images/news-thumb-image-1.jpg" alt="Latest News" class="img-responsive img-center-sm img-center-xs">
+											<img src="assets/images/new-1.png" alt="Latest News" class="img-responsive img-center-sm img-center-xs">
 											<div class="inner">
-												<h5><a href="#">Latest News Post Heading</a></h5>
+												<h5><a href="#">利黛迩生物科技有限公司与美国健康管理公司达成战略合作</a></h5>
 												<ul class="list-unstyled list-inline post-meta">
-													<li><i class="fa fa-calendar"></i> Sept 25, 2015</li>
-													<li><a href="#"><i class="fa fa-comments-o"></i> 10</a></li>
+													<!-- <li><i class="fa fa-calendar"></i> 5月17日, 2018</li> -->
 												</ul>
-												<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker....</p>
-												<a href="news-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i>Read More</a>
+												<p>利黛迩生物科技有限公司与美国健康管理公司签订了蛋白芯片检测在免疫细胞治疗的合作合同。该合同的签订标志着蛋白芯片检测技术离大众的生活更近了一步...</p>
+												<br>
+												<a href="#" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i>更多</a>
 											</div>
 										</div>
 									</div>
+									<!-- End News #3 -->
+									<!-- Start News #1 -->
+									<!--
+									<div class="col-md-4 col-sm-6 col-xs-6 col-md-offset-1">
+										<div class="news-post-box">
+											<img src="assets/images/new-2.png" alt="Latest News" class="img-responsive img-center-sm img-center-xs">
+											<div class="inner">
+												<h5><a href="#">利黛迩生物科技有限公司与深圳益世康宁生物科技有限公司达成战略合作</a></h5>
+												<ul class="list-unstyled list-inline post-meta">
+													<!-- <li><i class="fa fa-calendar"></i> 5月9日, 2018</li> -->
+											<!--	</ul>
+												<p>利黛迩生物科技有限公司与美国斯坦福大学签订了ACTL抗肿瘤靶向性细胞免疫治疗技术的技术转让合同。该合同的签订标志着蛋白芯片检测技术离大众的生活更近了一步...</p>
+												<br>
+												<a href="#" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i>更多</a>
+											</div>
+										</div>
+									</div>
+									-->
+									
 									<!-- End News #1 -->
 									<!-- Start News #2 -->
-									<div class="col-md-6 col-sm-6 col-xs-6">
+									<!--<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="news-post-box">
 											<img src="assets/images/news-thumb-image-2.jpg" alt="Latest News" class="img-responsive img-center-sm img-center-xs">
 											<div class="inner">
-												<h5><a href="#">Latest Tip Post Heading</a></h5>
+												<h5><a href="#">利黛迩生物科技有限公司携手韵永国际</a></h5>
 												<ul class="list-unstyled list-inline post-meta">
-													<li><i class="fa fa-calendar"></i> Sept 15, 2015</li>
-													<li><a href="#"><i class="fa fa-comments-o"></i> 10</a></li>
-												</ul>
-												<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker....</p>
-												<a href="news-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i>Read More</a>
+												<!--	<!-- <li><i class="fa fa-calendar"></i> 5月14日, 2018</li> -->
+											<!--	</ul>
+												<p>上海韵永医院投资管理有限公司简称“韵永国际”，携手上海利黛迩生物科技有限公司，依托国家战略层面优势资源，通过生命科学、健康医疗、金融产业功能平台，提供完整干细胞、免疫细胞、基因与蛋白芯片检测技术体系，将国际最前沿科技转化应用、开发创新...</p>
+												<a href="#" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i>更多</a>
 											</div>
 										</div>
-									</div>
+									</div> -->
 									<!-- Start News #2 -->
 								</div>
 							</div>
@@ -420,228 +389,26 @@
 							<!-- Start News Slide #2 -->
 							<div class="item">
 								<div class="row">
-									<!-- Start News #3 -->
-									<div class="col-md-6 col-sm-6 col-xs-6">
-										<div class="news-post-box">
-											<img src="assets/images/news-thumb-image-3.jpg" alt="Latest News" class="img-responsive img-center-sm img-center-xs">
-											<div class="inner">
-												<h5><a href="#">Latest News Post Heading</a></h5>
-												<ul class="list-unstyled list-inline post-meta">
-													<li><i class="fa fa-calendar"></i> Sept 25, 2015</li>
-													<li><a href="#"><i class="fa fa-comments-o"></i> 10</a></li>
-												</ul>
-												<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker....</p>
-												<a href="news-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i>Read More</a>
-											</div>
-										</div>
-									</div>
-									<!-- End News #3 -->
-									<!-- Start News #4 -->
-									<div class="col-md-6 col-sm-6 col-xs-6">
-										<div class="news-post-box">
-											<img src="assets/images/news-thumb-image-4.jpg" alt="Latest News" class="img-responsive img-center-sm img-center-xs">
-											<div class="inner">
-												<h5><a href="#">Latest Tip Post Heading</a></h5>
-												<ul class="list-unstyled list-inline post-meta">
-													<li><i class="fa fa-calendar"></i> Sept 15, 2015</li>
-													<li><a href="#"><i class="fa fa-comments-o"></i> 10</a></li>
-												</ul>
-												<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker....</p>
-												<a href="news-single.html" class="btn btn-secondary"><i class="fa fa-arrow-circle-right"></i>Read More</a>
-											</div>
-										</div>
-									</div>
-									<!-- Start News #4 -->
 								</div>
 							</div>
 							<!-- End News Slide #2 -->
 						</div>
 						<!-- Start News Carousel Controls Area -->
-						<a class="left carousel-control" href="#news-carousel" role="button" data-slide="prev">
+				<!--		<a class="left carousel-control" href="#news-carousel" role="button" data-slide="prev">
 							<span class="fa fa-angle-left" aria-hidden="true"></span>
 							<span class="sr-only">Previous</span>
 						</a>
 						<a class="right carousel-control" href="#news-carousel" role="button" data-slide="next">
 							<span class="fa fa-angle-right" aria-hidden="true"></span>
 							<span class="sr-only">Next</span>
-						</a>
+						</a>  -->
 						<!-- Start News Carousel Controls Area -->
 					</div>
 					<!-- End News Carousel -->
 				</div>
 			</section>
 			<!-- End Latest News Area -->
-			<!-- Start Department Area -->
-			<aside class="col-md-4 col-sm-12 col-xs-12">
-				<div class="main-block1">
-					<h2 class="main-heading1 lite">Medical</h2>
-					<h2 class="main-heading2">Departments</h2>
-					<!-- Start Accordion Area -->
-					<div class="panel-group" id="accordion">
-						<!-- Start Accordion #1 -->
-						<div class="panel">
-							<!-- Start Accordion #1 Heading -->
-							<div class="panel-heading">
-								<h5 class="panel-title">
-									<i class="icon fa fa-user-md"></i>
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Department of Neurology</a>
-								</h5>
-							</div>
-							<!-- End Accordion #1 Heading -->
-							<!-- Start Accordion #1 Body -->
-							<div id="collapse1" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions ...</p>
-									<a href="department-single.html" class="btn btn-sm btn-transparent inverse">Details</a>
-								</div>
-							</div>
-							<!-- End Accordion #1 Body -->
-						</div>
-						<!-- End Accordion #1 -->
-						<!-- Start Accordion #2 -->
-						<div class="panel">
-							<!-- Start Accordion #2 Heading -->
-							<div class="panel-heading">
-								<h5 class="panel-title">
-									<i class="icon fa fa-heartbeat"></i>
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Diagnosis With Precise</a>
-								</h5>
-							</div>
-							<!-- End Accordion #2 Heading -->
-							<!-- Start Accordion #2 Body -->
-							<div id="collapse2" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions ...</p>
-									<a href="department-single.html" class="btn btn-sm btn-transparent inverse">Details</a>
-								</div>
-							</div>
-							<!-- End Accordion #2 Body -->
-						</div>
-						<!-- End Accordion #2 -->
-						<!-- Start Accordion #3 -->
-						<div class="panel">
-							<!-- Start Accordion #3 Heading -->
-							<div class="panel-heading">
-								<h5 class="panel-title">
-									<i class="icon fa fa-scissors"></i>
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Major Surgery</a>
-								</h5>
-							</div>
-							<!-- End Accordion #3 Heading -->
-							<!-- Start Accordion #3 Body -->
-							<div id="collapse3" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions ...</p>
-									<a href="department-single.html" class="btn btn-sm btn-transparent inverse">Details</a>
-								</div>
-							</div>
-							<!-- End Accordion #3 Body -->
-						</div>
-						<!-- End Accordion #3 -->
-						<!-- Start Accordion #4 -->
-						<div class="panel">
-							<!-- Start Accordion #4 Heading -->
-							<div class="panel-heading">
-								<h5 class="panel-title">
-									<i class="icon fa fa-wheelchair"></i>
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Outpatient Rehabilitation</a>
-								</h5>
-							</div>
-							<!-- End Accordion #4 Heading -->
-							<!-- Start Accordion #4 Body -->
-							<div id="collapse4" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions ...</p>
-									<a href="department-single.html" class="btn btn-sm btn-transparent inverse">Details</a>
-								</div>
-							</div>
-							<!-- End Accordion #4 Body -->
-						</div>
-						<!-- End Accordion #4 -->
-						<!-- Start Accordion #5 -->
-						<div class="panel">
-							<!-- Start Accordion #5 Heading -->
-							<div class="panel-heading">
-								<h5 class="panel-title">
-									<i class="icon fa fa-stethoscope"></i>
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Primary Health Care</a>
-								</h5>
-							</div>
-							<!-- End Accordion #5 Heading -->
-							<!-- Start Accordion #5 Body -->
-							<div id="collapse5" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions ...</p>
-									<a href="department-single.html" class="btn btn-sm btn-transparent inverse">Details</a>
-								</div>
-							</div>
-							<!-- End Accordion #5 Body -->
-						</div>
-						<!-- End Accordion #5 -->
-						<!-- Start Accordion #6 -->
-						<div class="panel">
-							<!-- Start Accordion #6 Heading -->
-							<div class="panel-heading">
-								<h5 class="panel-title">
-									<i class="icon fa fa-ambulance"></i>
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">24x7 Ambulance</a>
-								</h5>
-							</div>
-							<!-- End Accordion #6 Heading -->
-							<!-- Start Accordion #6 Body -->
-							<div id="collapse6" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions ...</p>
-									<a href="department-single.html" class="btn btn-sm btn-transparent inverse">Details</a>
-								</div>
-							</div>
-							<!-- End Accordion #6 Body -->
-						</div>
-						<!-- End Accordion #6 -->
-						<!-- Start Accordion #7 -->
-						<div class="panel">
-							<!-- Start Accordion #7 Heading -->
-							<div class="panel-heading">
-								<h5 class="panel-title">
-									<i class="icon fa fa-hospital-o"></i>
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Appointment</a>
-								</h5>
-							</div>
-							<!-- End Accordion #7 Heading -->
-							<!-- Start Accordion #7 Body -->
-							<div id="collapse7" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions ...</p>
-									<a href="department-single.html" class="btn btn-sm btn-transparent inverse">Details</a>
-								</div>
-							</div>
-							<!-- End Accordion #7 Body -->
-						</div>
-						<!-- End Accordion #7 -->
-					</div>
-					<!-- End Accordion Area -->
-				</div>
-			</aside>
-			<!-- End Department Area -->
 		</div>
-		<!-- Start Appointment Booking Area -->
-		<div class="book-appointment-box">
-			<div class="row">
-				<div class="col-md-5 col-sm-12 col-xs-12 text-center-sm text-center-xs">
-					<h4>马上与我们取得联系</h4>
-					<h3><i class="fa fa-phone-square"></i> 021-62997966</h3>
-				</div>
-<!-- 				<div class="col-md-4 col-sm-12 col-xs-12 text-center-sm text-center-xs">
-					<a href="appointment.html" class="btn btn-main text-uppercase">Book your Appointment</a>
-				</div> -->
-				<div class="col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs">
-					<div class="box-img">
-						<img src="assets/images/appointment-booking-image-1.png" alt="Book your Appointment" />
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Appointment Booking Area -->
 	</div>
 	<!-- End Main Container Area -->
 	<!-- Start Footer Area -->
@@ -652,7 +419,7 @@
 					<!-- Start Information Area -->
 					<div class="col-md-4 col-sm-4 col-xs-6">
 						<h4>联系方式</h4>
-						<p>上海利戴尔医疗器械有限公司</p>
+						<p>利黛迩生物科技</p>
 						<ul class="list-unstyled address-list">
 							<li class="clearfix">
 								<i class="fa fa-phone"></i>
@@ -673,63 +440,45 @@
 					<div class="col-md-4 col-sm-4 col-xs-6">
 						<h4>我们的服务</h4>
 						<ul class="list-unstyled">
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Pediatric Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Diagnosis Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Cardiac Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Dental Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Gynecological Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Psychological</a></li>
+							<li><a href="protein.html"><i class="fa fa-angle-right"></i> 健康管理</a></li>
+							<li><a href="biology.html"><i class="fa fa-angle-right"></i> 生物医学应用</a></li>
+							<li><a href="cell.html"><i class="fa fa-angle-right"></i> 干细胞技术</a></li>
+							<!--<li><a href="actl.html"><i class="fa fa-angle-right"></i> ACTL技术</a></li>-->
+							<li><a href="more_products.html"><i class="fa fa-angle-right"></i> 更多产品</a></li>
+							<li><a href="about.html"><i class="fa fa-angle-right"></i> 关于我们</a></li>
 						</ul>
 					</div>
 					<!-- End Services Area -->
 					<!-- Start Testimonials Area -->
 					<div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
-						<h4>Testimonials</h4>
-						<ul class="list-unstyled tweets-list">
+						<h4>关注我们</h4>
+						<ul class="list-unstyled">
 							<li>
-								<i class="fa fa-comments"></i>
-								John Doe on
-								<p>Lorem Ipsum passages ...</p>
+								<i class="fa fa-weibo"></i>
+								新浪微博
 							</li>
 							<li>
-								<i class="fa fa-comments"></i>
-								John Doe on
-								<p>Lorem Ipsum passages ...</p>
+								<i class="fa fa-weixin"></i>
+								微信客服
 							</li>
 							<li>
-								<i class="fa fa-comments"></i>
-								John Doe on
-								<p>Lorem Ipsum passages ...</p>
+								<i class="fa fa-qq"></i>
+								QQ客服
 							</li>
 							<li>
-								<i class="fa fa-comments"></i>
-								John Doe on
-								<p>Lorem Ipsum passages ...</p>
+								<i class="fa fa-headphones"></i>
+								电话客服
 							</li>
 						</ul>
 					</div>
 					<!-- End Testimonials Area -->
-					<!-- Start Newsletter Area -->
-<!-- 					<div class="col-md-3 col-sm-12 col-xs-12 newsletter-block">
-						<h4>Newsletter</h4>
-						<form action="#" class="newsletter">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Enter Your Name">
-							</div>
-							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Enter Your E-Mail">
-							</div>
-							<button type="submit" class="btn btn-lg btn-block btn-secondary">Submit</button>
-						</form>
-					</div> -->
-					<!-- End Newsletter Area -->
 				</div>
 			</div>
 		</div>
 		<!-- Start Copyright Area -->
 		<div class="copyright">
 			<div class="container clearfix">
-				<p class="pull-left">Copyright &copy; 2018.上海利戴尔医疗器械有限公司 All rights reserved.</p>
+				<p class="pull-left">Copyright &copy; 2018.利黛迩生物科技有限公司 All rights reserved.</p>
 				<ul class="list-unstyled list-inline pull-right">
 <!-- 					<li><a href="#">Terms Of Services</a></li>
 					<li><a href="#">Privacy Policy</a></li> -->

@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="">
-	<title></title>
+	<title>Lidar Life Science</title>
 	<!-- Bootstrap CSS -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesome CSS -->
@@ -31,6 +31,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]><script src="assets/js/html5shiv.min.js"></script><script src="assets/js/respond.min.js"></script><![endif]-->
+	<link rel="icon" href="title.ico" type="image/x-icon"/>
 </head>
 <body>
 
@@ -48,14 +49,14 @@
 						<span class="top-info"><i class="fa fa-map-marker"></i></span>上海市江宁路1165弄409室-410室
 						<span class="top-info"><i class="fa fa-calendar"></i></span>Mon - Fri 9:00 - 17:00
 					</div>
-					<div class="col-sm-3 col-xs-12">
+			<!--		<div class="col-sm-3 col-xs-12">
 						<ul class="list-unstyled list-inline">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-vimeo"></i></a></li>
 						</ul>
-					</div>
+					</div>-->
 				</div>
 			</div>
 			<!-- End TopBar Area -->
@@ -72,8 +73,8 @@
 						</button>
 						<!-- End Collapse Button -->
 						<!-- Start Website Logo -->
-						<a href="index.html" class="navbar-brand">
-							<img src="assets/images/logo.jpg" class="logo" alt="Logo">
+						<a href="index.html" class="navbar-left">
+							<img src="assets/images/logo.png" class="logo" alt="Logo">
 						</a>
 						<!-- End Website Logo -->
 					</div>
@@ -81,13 +82,24 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="index.html">首页</a></li>
-							<li><a href="about.html">关于我们</a></li>
-							<li><a href="actl.html">ACTL技术</a></li>
-							<li><a href="services.html">蛋白芯片</a></li>
-							<li><a href="cell.html">干细胞技术</a></li>
+                            <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">蛋白芯片<span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background: white;">
+                                     <li><a href="protein.html" style="color: black">健康管理</a></li>
+									<li><a href="biology.html" style="color: black">生物医学应用</a></li>
+                            </ul>
+                            </li>
+							<li>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">细胞治疗<span class="caret"></span></a>
+								<ul class="dropdown-menu" style="background: white;">
+									<li><a href="cell.html" style="color: black">干细胞技术</a></li>
+									<!--<li><a href="actl.html" style="color: black">ACTL技术</a></li>-->
+								</ul>
+							</li>
 							<li><a href="more_products.html">更多产品</a></li>
 							<!-- <li class="active"><a href="service-single.html">Single Service</a></li> -->
-							<li><a href="contact.html">联系我们</a></li>
+							<li class="active"><a href="contact.html">联系我们</a></li>
+							<li><a href="about.html">关于我们</a></li>
 						</ul>
 					</div>
 					<!-- Start Menu Area -->
@@ -99,19 +111,19 @@
 	<!-- End Header Area -->
 	<div class="main-banner six">
 		<div class="container">
-			<h2><span>Contact Us</span></h2>
+			<h2><span>联系我们</span></h2>
 		</div>
 	</div>
 	<!-- End Page Banner Area -->
 	<!-- Start Breadcrumb Area -->
-	<div class="breadcrumb">
+	<!-- <div class="breadcrumb">
 		<div class="container">
 			<ul class="list-unstyled list-inline">
 				<li><a href="index.html">首页</a></li>
 				<li class="active">联系我们</li>
 			</ul>
 		</div>
-	</div>
+	</div> -->
 	<!-- End Breadcrumb Area -->
 	<!-- Start Main Container -->
 	<div class="container main-container">
@@ -125,15 +137,14 @@
 				</div>
 				<div class="col-md-7 col-sm-12 col-xs-12">
 					<div class="info-box">
-						<h3>We'd love to hear from you</h3>
+						<h3>期待与您合作</h3>
 						<h5>
-							Fusce convallis diam vitae velit tempus rutrum. Donec nisl nisl, vulputate eu sapien sed, adipiscing vehicula massa. Mauris eget commodo neque, id molestie enim.
 						</h5>
 						<div class="row">
-							<h4 class="col-sm-6 col-xs-12">Tel: +1 888 888 8888</h4>
-							<h4 class="col-sm-6 col-xs-12">Fax: +1 888 888 8888</h4>
+							<h4 class="col-sm-6 col-xs-12">电话:021-62997966</h4>
+							<h4 class="col-sm-6 col-xs-12">邮箱: lidar1566@126.com</h4>
 						</div>
-						<h4>E-Mail: <a href="mailto:info@domainname.com">info@yoursite.com</a></h4>
+						<h4>地址: 上海市江宁路1165弄409室-410室 </h4>
 					</div>
 				</div>
 				<div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"></div>
@@ -144,51 +155,50 @@
 		<div class="contact-content">
 			<div class="row">
 				<!-- Start Contact Form -->
-				<div class="col-md-8 col-sm-12 col-xs-12">
-					<h3>Get in touch by filling the form below</h3>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h3>联系我们</h3>
 					<div class="status alert alert-success contact-status"></div>
 					<form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="#">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="name">Name </label>
+									<label for="name">联系人</label>
 									<input type="text" class="form-control" name="name" id="name" required="required">
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="email">Email Address </label>
+									<label for="email">电子邮箱</label>
 									<input type="text" class="form-control" name="email" id="email" required="required">
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="phoneno">Contact Number </label>
+									<label for="phoneno">联系电话</label>
 									<input type="text" class="form-control" name="phoneno" id="phoneno" required="required">
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="subject">Subject </label>
+									<label for="subject">地址</label>
 									<input type="text" class="form-control" name="subject" id="subject" required="required">
 								</div>
 							</div>
 							<div class="col-xs-12">
 								<div class="form-group">
-									<label for="message">Your Comments: </label>
+									<label for="message">留言</label>
 									<textarea class="form-control" rows="8" name="message" id="message" required="required"></textarea>
 								</div>
 							</div>
 							<div class="col-xs-12">
-								<input type="submit" class="btn btn-black text-uppercase" value="Submit">
+								<input type="submit" class="btn btn-black text-uppercase" value="提交">
 							</div>
 						</div>
 					</form>
 				</div>
 				<!-- Start Contact Form -->
 				<!-- Start Address Area -->
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<!-- Start Box #1 -->
+				<!-- <div class="col-md-4 col-sm-12 col-xs-12">
 					<div class="cblock-1">
 						<span class="icon-wrap"><i class="fa fa-car"></i></span>
 						<h4>Come and Visit</h4>
@@ -198,8 +208,6 @@
 							<li>E-Mail: info@g-starting.com</li>
 						</ul>
 					</div>
-					<!-- End Box #1 -->
-					<!-- Start Box #2 -->
 					<div class="cblock-1">
 						<span class="icon-wrap red"><i class="fa fa-ambulance"></i></span>
 						<h4>Emergency Care?</h4>
@@ -209,8 +217,7 @@
 							<li>Call +1 888 888 8888</li>
 						</ul>
 					</div>
-					<!-- Start Box #2 -->
-				</div>
+				</div> -->
 				<!-- End Address Area -->
 			</div>
 		</div>
@@ -223,99 +230,81 @@
 	<!-- End Google Map -->
 	<!-- Start Footer Area -->
 	<footer class="main-footer">
-		<div class="footer-area">
-			<div class="container">
-				<div class="row">
-					<!-- Start Information Area -->
-					<div class="col-md-4 col-sm-4 col-xs-6">
-						<h4>联系方式</h4>
-						<p>上海利戴尔医疗器械有限公司</p>
-						<ul class="list-unstyled address-list">
-							<li class="clearfix">
-								<i class="fa fa-phone"></i>
-								021-62997966
-							</li>
-							<li class="clearfix">
-								<i class="fa fa-envelope-o"></i>
-								lidar1566@126.com
-							</li>
-							<li class="clearfix address">
-								<i class="fa fa-map-marker"></i>
-								上海市江宁路1165弄409室-410室
-							</li>
-						</ul>
+			<div class="footer-area">
+				<div class="container">
+					<div class="row">
+						<!-- Start Information Area -->
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<h4>联系方式</h4>
+							<p>利黛迩生物科技</p>
+							<ul class="list-unstyled address-list">
+								<li class="clearfix">
+									<i class="fa fa-phone"></i>
+									021-62997966
+								</li>
+								<li class="clearfix">
+									<i class="fa fa-envelope-o"></i>
+									lidar1566@126.com
+								</li>
+								<li class="clearfix address">
+									<i class="fa fa-map-marker"></i>
+									上海市江宁路1165弄409室-410室
+								</li>
+							</ul>
+						</div>
+						<!-- End Information Area -->
+						<!-- Start Services Area -->
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<h4>我们的服务</h4>
+							<ul class="list-unstyled">
+								<li><a href="protein.html"><i class="fa fa-angle-right"></i> 健康管理</a></li>
+							<li><a href="biology.html"><i class="fa fa-angle-right"></i> 生物医学应用</a></li>
+								<li><a href="cell.html"><i class="fa fa-angle-right"></i> 干细胞技术</a></li>
+							<!--	<li><a href="actl.html"><i class="fa fa-angle-right"></i> ACTL技术</a></li>-->
+								<li><a href="more_products.html"><i class="fa fa-angle-right"></i> 更多产品</a></li>
+								<li><a href="about.html"><i class="fa fa-angle-right"></i> 关于我们</a></li>
+							</ul>
+						</div>
+						<!-- End Services Area -->
+						<!-- Start Testimonials Area -->
+						<div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
+							<h4>关注我们</h4>
+							<ul class="list-unstyled">
+								<li>
+									<i class="fa fa-weibo"></i>
+									新浪微博
+								</li>
+								<li>
+									<i class="fa fa-weixin"></i>
+									微信客服
+								</li>
+								<li>
+									<i class="fa fa-qq"></i>
+									QQ客服
+								</li>
+								<li>
+									<i class="fa fa-headphones"></i>
+									电话客服
+								</li>
+							</ul>
+						</div>
+						<!-- End Testimonials Area -->
 					</div>
-					<!-- End Information Area -->
-					<!-- Start Services Area -->
-					<div class="col-md-4 col-sm-4 col-xs-6">
-						<h4>我们的服务</h4>
-						<ul class="list-unstyled">
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Pediatric Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Diagnosis Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Cardiac Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Dental Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Gynecological Clinic</a></li>
-							<li><a href="service-single.html"><i class="fa fa-angle-right"></i> Psychological</a></li>
-						</ul>
-					</div>
-					<!-- End Services Area -->
-					<!-- Start Testimonials Area -->
-					<div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
-						<h4>Testimonials</h4>
-						<ul class="list-unstyled tweets-list">
-							<li>
-								<i class="fa fa-comments"></i>
-								John Doe on
-								<p>Lorem Ipsum passages ...</p>
-							</li>
-							<li>
-								<i class="fa fa-comments"></i>
-								John Doe on
-								<p>Lorem Ipsum passages ...</p>
-							</li>
-							<li>
-								<i class="fa fa-comments"></i>
-								John Doe on
-								<p>Lorem Ipsum passages ...</p>
-							</li>
-							<li>
-								<i class="fa fa-comments"></i>
-								John Doe on
-								<p>Lorem Ipsum passages ...</p>
-							</li>
-						</ul>
-					</div>
-					<!-- End Testimonials Area -->
-					<!-- Start Newsletter Area -->
-<!-- 					<div class="col-md-3 col-sm-12 col-xs-12 newsletter-block">
-						<h4>Newsletter</h4>
-						<form action="#" class="newsletter">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Enter Your Name">
-							</div>
-							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Enter Your E-Mail">
-							</div>
-							<button type="submit" class="btn btn-lg btn-block btn-secondary">Submit</button>
-						</form>
-					</div> -->
-					<!-- End Newsletter Area -->
 				</div>
 			</div>
-		</div>
-		<!-- Start Copyright Area -->
-		<div class="copyright">
-			<div class="container clearfix">
-				<p class="pull-left">Copyright &copy; 2018.上海利戴尔医疗器械有限公司 All rights reserved.</p>
-				<ul class="list-unstyled list-inline pull-right">
-<!-- 					<li><a href="#">Terms Of Services</a></li>
-					<li><a href="#">Privacy Policy</a></li> -->
-					<li><a href="contact.html">联系我们</a></li>
-				</ul>
+			<!-- Start Copyright Area -->
+			<div class="copyright">
+				<div class="container clearfix">
+					<p class="pull-left">Copyright &copy; 2018.利黛迩生物科技有限公司 All rights reserved.</p>
+					<ul class="list-unstyled list-inline pull-right">
+	<!-- 					<li><a href="#">Terms Of Services</a></li>
+						<li><a href="#">Privacy Policy</a></li> -->
+						<li><a href="contact.html">联系我们</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<!-- End Copyright Area -->
-	</footer>
+			<!-- End Copyright Area -->
+		</footer>
 	<!-- End Footer Area -->
 	<!-- Start Back To Top Button -->
 	<div id="back-to-top">
